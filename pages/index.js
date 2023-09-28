@@ -1,4 +1,5 @@
 import Head from "next/head";
+import JobsList from "../components/JobsList/JobsList";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -10,9 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <div>
-          <h1>New</h1>
-        </div>
+        <JobsList />
       </main>
 
       <footer>
