@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Jobs map</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -21,7 +21,11 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
+          <img
+            src="https://raw.githubusercontent.com/Elir-Mahad/notes/main/assets/personal/logo.png"
+            alt="Vercel"
+            className={styles.logo}
+          />
         </a>
       </footer>
 

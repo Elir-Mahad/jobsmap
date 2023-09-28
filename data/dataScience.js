@@ -26,6 +26,7 @@ export const jobData = [
   // 9. Chief Data Officer (CDO):
   // Career Track: Data Analyst/Data Scientist ➔ Data Team Lead/Manager ➔ Director of Data Strategy ➔ Chief Data Officer
   {
+    field: "Data science",
     jobCategory: "Data Analyst",
     jobLevels: [
       {
