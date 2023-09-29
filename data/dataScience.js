@@ -1,5 +1,5 @@
 export const dataScienceJobs = [
-  //   1. Data Analyst:
+  // Data Analyst:
   // Career Track: Junior Data Analyst ➔ Data Analyst ➔ Senior Data Analyst ➔ Lead Data Analyst ➔ Analytics Manager
   {
     field: "Data science",
@@ -98,7 +98,7 @@ export const dataScienceJobs = [
       },
     ],
   },
-  // 2. Business Analyst:
+  // Business Analyst:
   // Career Track: Junior Business Analyst ➔ Business Analyst ➔ Senior Business Analyst ➔ Business Intelligence (BI) Manager ➔ Director of Business Analytics
 
   {
@@ -202,7 +202,7 @@ export const dataScienceJobs = [
       },
     ],
   },
-  // 3. Data Scientist:
+  // Data Scientist:
   // Career Track: Junior Data Scientist ➔ Data Scientist ➔ Senior Data Scientist ➔ Machine Learning Engineer ➔ Chief Data Scientist
   {
     field: "Data science",
@@ -305,7 +305,7 @@ export const dataScienceJobs = [
       },
     ],
   },
-  // 4. Machine Learning Engineer:
+  // Machine Learning Engineer:
   // Career Track: Junior Machine Learning Engineer ➔ Machine Learning Engineer ➔ Senior Machine Learning Engineer ➔ Machine Learning Architect ➔ Chief AI Officer
   {
     field: "Data science",
@@ -404,7 +404,7 @@ export const dataScienceJobs = [
       },
     ],
   },
-  // 5. Data Engineer:
+  // Data Engineer:
   // Career Track: Junior Data Engineer ➔ Data Engineer ➔ Senior Data Engineer ➔ Data Engineering Manager ➔ Chief Data Officer
   {
     field: "Data science",
@@ -499,7 +499,7 @@ export const dataScienceJobs = [
       },
     ],
   },
-  // 7. Statistician:
+  // Statistician:
   // Career Track: Junior Statistician ➔ Statistician ➔ Senior Statistician ➔ Principal Statistician ➔ Chief Statistician
   {
     field: "Data science",
@@ -594,7 +594,7 @@ export const dataScienceJobs = [
       },
     ],
   },
-  // 8. Research Scientist (AI/ML):
+  // Research Scientist (AI/ML):
   // Career Track: Junior Research Scientist ➔ Research Scientist ➔ Senior Research Scientist ➔ Principal Research Scientist ➔ Chief AI Research Officer
   {
     field: "Data science",
@@ -693,6 +693,87 @@ export const dataScienceJobs = [
       },
     ],
   },
-  // 9. Chief Data Officer (CDO):
+  // Chief Data Officer (CDO):
   // Career Track: Data Analyst/Data Scientist ➔ Data Team Lead/Manager ➔ Director of Data Strategy ➔ Chief Data Officer
+  {
+    field: "Data science",
+    jobCategory: "Chief Data Officer",
+    jobLevels: [
+      {
+        level: "Data Analyst/Data Scientist",
+        jobDescription:
+          "Combines skills of data analysis and data science, focusing on data collection, cleaning, analysis, and modeling. Collaborates with cross-functional teams, extracts valuable insights, and contributes to data-driven decision-making.",
+        requiredSkills: [
+          "Data Analysis",
+          "Data Science",
+          "Cross-functional Collaboration",
+        ],
+        responsibilities: [
+          "Collect, clean, and analyze data for insights",
+          "Collaborate with cross-functional teams and extract valuable insights",
+          "Contribute to data-driven decision-making processes",
+        ],
+        experience: "2-4 years of relevant experience",
+        certifications: [
+          "Data Analyst Certification",
+          "Data Science Certification",
+        ],
+        potentialCompensationToronto: "$80,000 - $100,000 CAD per year",
+        potentialCompensationCanada: "$70,000 - $90,000 CAD per year",
+      },
+      {
+        level: "Data Team Lead/Manager",
+        jobDescription:
+          "Leads data analysis teams, sets data analysis strategies, and oversees complex data projects. Collaborates with department heads, shapes data-driven strategies, and ensures successful project delivery.",
+        requiredSkills: [
+          "Team Leadership",
+          "Data Analysis Strategy",
+          "Project Management",
+        ],
+        responsibilities: [
+          "Lead data analysis teams and set analysis strategies",
+          "Collaborate with department heads and shape data-driven strategies",
+          "Ensure successful delivery of complex data projects",
+        ],
+        experience: "5-8 years of relevant experience",
+        certifications: ["Certified Data Analyst Manager (CDAM)"],
+        potentialCompensationToronto: "$100,000 - $120,000 CAD per year",
+        potentialCompensationCanada: "$90,000 - $110,000 CAD per year",
+      },
+      {
+        level: "Director of Data Strategy",
+        jobDescription:
+          "Shapes the organization's data strategy, sets data policies, and oversees data-related initiatives. Collaborates with executives, guides data-driven innovations, and ensures alignment with organizational goals.",
+        requiredSkills: [
+          "Data Strategy",
+          "Policy Development",
+          "Executive Collaboration",
+        ],
+        responsibilities: [
+          "Shape the organization's data strategy and set data policies",
+          "Collaborate with executives and guide data-driven innovations",
+          "Ensure alignment of data initiatives with organizational goals",
+        ],
+        experience: "8+ years of relevant experience",
+        certifications: ["Certified Data Strategy Director (CDSD)"],
+        potentialCompensationToronto: "$130,000 - $150,000 CAD per year",
+        potentialCompensationCanada: "$120,000 - $140,000 CAD per year",
+      },
+      {
+        level: "Chief Data Officer (CDO)",
+        jobDescription:
+          "Leads the organization's data initiatives, sets data policies, oversees data teams, and shapes data-driven innovation. Collaborates with C-level executives to drive data initiatives and transform the organization's data landscape.",
+        requiredSkills: ["Data Strategy", "Leadership", "Innovation"],
+        responsibilities: [
+          "Lead the organization's data initiatives and set data policies",
+          "Oversee data teams and shape data-driven innovation",
+          "Collaborate with C-level executives on data initiatives and data landscape transformation",
+        ],
+        experience: "10+ years of relevant experience",
+        certifications: ["Certified Chief Data Officer (CCDO)"],
+        potentialCompensationToronto: "$160,000 - $200,000+ CAD per year",
+        potentialCompensationCanada: "$150,000 - $190,000+ CAD per year",
+      },
+    ],
+  },
 ];
