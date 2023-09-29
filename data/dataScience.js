@@ -2,9 +2,6 @@ export const dataScienceJobs = [
   //   1. Data Analyst:
   // Career Track: Junior Data Analyst ➔ Data Analyst ➔ Senior Data Analyst ➔ Lead Data Analyst ➔ Analytics Manager
 
-  // 4. Machine Learning Engineer:
-  // Career Track: Junior Machine Learning Engineer ➔ Machine Learning Engineer ➔ Senior Machine Learning Engineer ➔ Machine Learning Architect ➔ Chief AI Officer
-
   // 5. Data Engineer:
   // Career Track: Junior Data Engineer ➔ Data Engineer ➔ Senior Data Engineer ➔ Data Engineering Manager ➔ Chief Data Officer
 
@@ -417,6 +414,101 @@ export const dataScienceJobs = [
         ],
         experience: "10+ years of relevant experience",
         certifications: ["Certified Chief AI Officer (CCAI)"],
+        potentialCompensationToronto: "$150,000 - $200,000+ CAD per year",
+        potentialCompensationCanada: "$140,000 - $190,000+ CAD per year",
+      },
+    ],
+  },
+  // 5. Data Engineer:
+  // Career Track: Junior Data Engineer ➔ Data Engineer ➔ Senior Data Engineer ➔ Data Engineering Manager ➔ Chief Data Officer
+  {
+    field: "Data science",
+    jobCategory: "Data Engineer",
+    jobLevels: [
+      {
+        level: "Junior Data Engineer",
+        jobDescription:
+          "Entry-level role focusing on data collection, transformation, and integration. Collaborates with senior data engineers and data scientists to assist in building and maintaining data pipelines.",
+        requiredSkills: [
+          "Data Collection",
+          "Data Transformation",
+          "Collaboration",
+        ],
+        responsibilities: [
+          "Assist in data collection, transformation, and integration",
+          "Collaborate with senior data engineers and data scientists",
+          "Contribute to building and maintaining data pipelines",
+        ],
+        experience: "0-2 years of relevant experience",
+        certifications: [],
+        potentialCompensationToronto: "$70,000 - $90,000 CAD per year",
+        potentialCompensationCanada: "$60,000 - $80,000 CAD per year",
+      },
+      {
+        level: "Data Engineer",
+        jobDescription:
+          "Designs, constructs, installs, and maintains scalable data pipelines. Collaborates with data scientists and analysts to ensure data availability and accuracy. Optimizes data delivery and maintains data architecture standards.",
+        requiredSkills: [
+          "Data Pipeline Development",
+          "Data Maintenance",
+          "Collaboration",
+        ],
+        responsibilities: [
+          "Design, construct, install, and maintain scalable data pipelines",
+          "Collaborate with data scientists and analysts for data availability and accuracy",
+          "Optimize data delivery and maintain data architecture standards",
+        ],
+        experience: "2-4 years of relevant experience",
+        certifications: ["Certified Data Engineer (CDE)"],
+        potentialCompensationToronto: "$80,000 - $100,000 CAD per year",
+        potentialCompensationCanada: "$70,000 - $90,000 CAD per year",
+      },
+      {
+        level: "Senior Data Engineer",
+        jobDescription:
+          "Leads data engineering projects, provides technical expertise, and mentors junior data engineers. Collaborates with cross-functional teams to integrate data solutions into production systems and ensure data quality.",
+        requiredSkills: ["Project Leadership", "Mentoring", "Data Integration"],
+        responsibilities: [
+          "Lead data engineering projects and provide technical expertise",
+          "Mentor junior data engineers and provide guidance on complex projects",
+          "Collaborate with cross-functional teams for data solution integration and quality",
+        ],
+        experience: "4-6 years of relevant experience",
+        certifications: ["Certified Senior Data Engineer (CSDE)"],
+        potentialCompensationToronto: "$100,000 - $120,000 CAD per year",
+        potentialCompensationCanada: "$90,000 - $110,000 CAD per year",
+      },
+      {
+        level: "Data Engineering Manager",
+        jobDescription:
+          "Manages data engineering teams, sets technical strategy, and oversees complex data projects. Collaborates with executives and technology teams to align data engineering efforts with business goals.",
+        requiredSkills: [
+          "Team Leadership",
+          "Strategic Planning",
+          "Project Management",
+        ],
+        responsibilities: [
+          "Manage data engineering teams and set technical strategy",
+          "Oversee complex data projects and ensure successful delivery",
+          "Collaborate with executives and technology teams for alignment with business goals",
+        ],
+        experience: "6+ years of relevant experience",
+        certifications: ["Certified Data Engineering Manager (CDEM)"],
+        potentialCompensationToronto: "$120,000 - $150,000 CAD per year",
+        potentialCompensationCanada: "$110,000 - $140,000 CAD per year",
+      },
+      {
+        level: "Chief Data Officer",
+        jobDescription:
+          "Leads the organization's data strategy, sets data governance policies, oversees data teams, and shapes data-driven innovation. Collaborates with C-level executives to drive data initiatives and transform the organization's data landscape.",
+        requiredSkills: ["Data Strategy", "Data Governance", "Innovation"],
+        responsibilities: [
+          "Lead the organization's data strategy and set data governance policies",
+          "Oversee data teams and shape data-driven innovation",
+          "Collaborate with C-level executives on data initiatives and data landscape transformation",
+        ],
+        experience: "10+ years of relevant experience",
+        certifications: ["Certified Chief Data Officer (CCDO)"],
         potentialCompensationToronto: "$150,000 - $200,000+ CAD per year",
         potentialCompensationCanada: "$140,000 - $190,000+ CAD per year",
       },
