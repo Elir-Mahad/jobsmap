@@ -25,18 +25,20 @@ function Field() {
         <button onClick={toggleSoftwareDevelopment}>
           Software Development
         </button>
-        {isDataScience &&
-          dataScienceJobs.map((category) => (
-            <div key={category.id}>
-              <Career category={category} />
-            </div>
-          ))}
-        {isSoftwareDevelopment &&
-          softwareDevelopmentJobs.map((category) => (
-            <div key={category.id}>
-              <Career category={category} />
-            </div>
-          ))}
+        <div style={{ width: "100%" }}>
+          {isDataScience &&
+            dataScienceJobs.map((category) => (
+              <div key={category.id}>
+                <Career category={category} />
+              </div>
+            ))}
+          {isSoftwareDevelopment &&
+            softwareDevelopmentJobs.map((category) => (
+              <div key={category.id}>
+                <Career category={category} />
+              </div>
+            ))}
+        </div>
       </div>
     </div>
   );

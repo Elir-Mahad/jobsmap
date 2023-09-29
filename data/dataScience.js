@@ -123,4 +123,105 @@ export const dataScienceJobs = [
     ],
   },
   //
+  {
+    field: "Data science",
+    jobCategory: "Business Analyst ",
+    jobLevels: [
+      {
+        level: "Junior Business Analyst",
+        jobDescription:
+          "Entry-level role focusing on business data analysis, report generation, and decision support. Collaborates with senior analysts and stakeholders to analyze business requirements.",
+        requiredSkills: [
+          "Data Analysis",
+          "Report Generation",
+          "Business Domain Knowledge",
+        ],
+        responsibilities: [
+          "Assist in business data analysis and report generation",
+          "Collaborate with senior analysts and stakeholders on analysis projects",
+          "Support decision-making processes with data-driven insights",
+        ],
+        experience: "0-2 years of relevant experience",
+        certifications: [],
+        potentialCompensationToronto: "$50,000 - $70,000 CAD per year",
+        potentialCompensationCanada: "$45,000 - $65,000 CAD per year",
+      },
+      {
+        level: "Business Analyst",
+        jobDescription:
+          "Analyzes complex business data, generates detailed reports, and provides insights for decision-making. Works closely with stakeholders to understand business needs and improve processes.",
+        requiredSkills: [
+          "Advanced Data Analysis",
+          "Report Generation",
+          "Stakeholder Management",
+        ],
+        responsibilities: [
+          "Analyze complex business data and generate detailed reports",
+          "Work closely with stakeholders to understand business needs",
+          "Provide insights for decision-making processes",
+        ],
+        experience: "2-4 years of relevant experience",
+        certifications: ["Business Analysis Professional (CBAP)"],
+        potentialCompensationToronto: "$70,000 - $90,000 CAD per year",
+        potentialCompensationCanada: "$60,000 - $80,000 CAD per year",
+      },
+      {
+        level: "Senior Business Analyst",
+        jobDescription:
+          "Leads business analysis projects, provides strategic insights, and mentors junior analysts. Collaborates with executives to align data analysis with organizational goals.",
+        requiredSkills: [
+          "Strategic Analysis",
+          "Project Leadership",
+          "Mentoring",
+        ],
+        responsibilities: [
+          "Lead business analysis projects and provide strategic insights",
+          "Collaborate with executives to align analysis with organizational goals",
+          "Mentor junior analysts and provide guidance on complex analyses",
+        ],
+        experience: "4-6 years of relevant experience",
+        certifications: ["Certified Business Analysis Professional (CBAP)"],
+        potentialCompensationToronto: "$90,000 - $110,000 CAD per year",
+        potentialCompensationCanada: "$80,000 - $100,000 CAD per year",
+      },
+      {
+        level: "Business Intelligence (BI) Manager",
+        jobDescription:
+          "Manages the BI team, sets technical strategies, and oversees data-driven initiatives. Collaborates with C-level executives to drive the organization's data strategy.",
+        requiredSkills: [
+          "Team Leadership",
+          "Data Strategy",
+          "Executive Communication",
+        ],
+        responsibilities: [
+          "Manage the BI team and set technical strategies",
+          "Collaborate with C-level executives to drive the organization's data strategy",
+          "Oversee data-driven initiatives and ensure alignment with business objectives",
+        ],
+        experience: "6+ years of relevant experience",
+        certifications: ["Certified Business Intelligence Professional (CBIP)"],
+        potentialCompensationToronto: "$110,000 - $140,000 CAD per year",
+        potentialCompensationCanada: "$100,000 - $130,000 CAD per year",
+      },
+      {
+        level: "Director of Business Analytics",
+        jobDescription:
+          "Leads the organization's business analytics department, shapes the data-driven strategy, and collaborates with executives to drive business growth. Provides leadership and direction for the entire analytics team.",
+        requiredSkills: [
+          "Department Leadership",
+          "Data-Driven Strategy",
+          "Executive Collaboration",
+        ],
+        responsibilities: [
+          "Lead the organization's business analytics department and shape the data-driven strategy",
+          "Collaborate with executives to drive business growth through data-driven insights",
+          "Provide leadership and direction for the entire analytics team",
+        ],
+        experience: "8+ years of relevant experience",
+        certifications: ["Certified Analytics Professional (CAP)"],
+        potentialCompensationToronto: "$120,000 - $180,000+ CAD per year",
+        potentialCompensationCanada: "$110,000 - $170,000+ CAD per year",
+      },
+    ],
+  },
 ];

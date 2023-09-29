@@ -5,7 +5,7 @@ function Career({ category }) {
   return (
     <div key={category.jobCategory} className={style.jobCat}>
       <h2>{category.jobCategory}</h2>
-      <div className={style.jobLevels}>
+      <div>
         {category.jobLevels.map((level, index) => (
           <Job level={level} index={index} />
         ))}
