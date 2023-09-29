@@ -1,12 +1,6 @@
 export const dataScienceJobs = [
   //   1. Data Analyst:
   // Career Track: Junior Data Analyst ➔ Data Analyst ➔ Senior Data Analyst ➔ Lead Data Analyst ➔ Analytics Manager
-
-  // 8. Research Scientist (AI/ML):
-  // Career Track: Junior Research Scientist ➔ Research Scientist ➔ Senior Research Scientist ➔ Principal Research Scientist ➔ Chief AI Research Officer
-
-  // 9. Chief Data Officer (CDO):
-  // Career Track: Data Analyst/Data Scientist ➔ Data Team Lead/Manager ➔ Director of Data Strategy ➔ Chief Data Officer
   {
     field: "Data science",
     jobCategory: "Data Analyst",
@@ -600,4 +594,105 @@ export const dataScienceJobs = [
       },
     ],
   },
+  // 8. Research Scientist (AI/ML):
+  // Career Track: Junior Research Scientist ➔ Research Scientist ➔ Senior Research Scientist ➔ Principal Research Scientist ➔ Chief AI Research Officer
+  {
+    field: "Data science",
+    jobCategory: "Research Scientist (AI/ML)",
+    jobLevels: [
+      {
+        level: "Junior Research Scientist",
+        jobDescription:
+          "Entry-level role focusing on research experiments, data analysis, and literature reviews. Collaborates with senior researchers, assists in experimental design, and contributes to research publications.",
+        requiredSkills: [
+          "Research Methodologies",
+          "Data Analysis",
+          "Literature Review",
+        ],
+        responsibilities: [
+          "Conduct research experiments and analyze data",
+          "Assist in experimental design and literature reviews",
+          "Collaborate with senior researchers and contribute to research publications",
+        ],
+        experience: "0-2 years of relevant experience",
+        certifications: [],
+        potentialCompensationToronto: "$70,000 - $90,000 CAD per year",
+        potentialCompensationCanada: "$60,000 - $80,000 CAD per year",
+      },
+      {
+        level: "Research Scientist",
+        jobDescription:
+          "Conducts independent research projects, analyzes experimental data, and contributes to research publications. Collaborates with interdisciplinary teams, designs experiments, and mentors junior researchers.",
+        requiredSkills: [
+          "Independent Research",
+          "Experimental Design",
+          "Interdisciplinary Collaboration",
+        ],
+        responsibilities: [
+          "Conduct independent research projects and analyze experimental data",
+          "Design experiments and collaborate with interdisciplinary teams",
+          "Mentor junior researchers and contribute to research publications",
+        ],
+        experience: "2-4 years of relevant experience",
+        certifications: ["Certified Research Scientist (CRS)"],
+        potentialCompensationToronto: "$90,000 - $110,000 CAD per year",
+        potentialCompensationCanada: "$80,000 - $100,000 CAD per year",
+      },
+      {
+        level: "Senior Research Scientist",
+        jobDescription:
+          "Leads research projects, analyzes complex experimental data, and publishes high-impact research papers. Provides technical leadership, collaborates with industry experts, and guides research strategy.",
+        requiredSkills: [
+          "Project Leadership",
+          "Advanced Data Analysis",
+          "Publication",
+        ],
+        responsibilities: [
+          "Lead research projects and analyze complex experimental data",
+          "Publish high-impact research papers and provide technical leadership",
+          "Collaborate with industry experts and guide research strategy",
+        ],
+        experience: "5-8 years of relevant experience",
+        certifications: ["Certified Senior Research Scientist (CSRS)"],
+        potentialCompensationToronto: "$110,000 - $130,000 CAD per year",
+        potentialCompensationCanada: "$100,000 - $120,000 CAD per year",
+      },
+      {
+        level: "Principal Research Scientist",
+        jobDescription:
+          "Guides research direction, sets research methodologies, and oversees large-scale research projects. Collaborates with executives, shapes research strategies, and ensures alignment with organizational goals.",
+        requiredSkills: [
+          "Research Strategy",
+          "Methodology Development",
+          "Executive Collaboration",
+        ],
+        responsibilities: [
+          "Guide research direction and set methodologies",
+          "Oversee large-scale research projects and ensure successful delivery",
+          "Collaborate with executives, shape research strategies, and ensure alignment with organizational goals",
+        ],
+        experience: "8+ years of relevant experience",
+        certifications: ["Certified Principal Research Scientist (CPRS)"],
+        potentialCompensationToronto: "$130,000 - $160,000 CAD per year",
+        potentialCompensationCanada: "$120,000 - $150,000 CAD per year",
+      },
+      {
+        level: "Chief AI Research Officer",
+        jobDescription:
+          "Leads the organization's AI research initiatives, sets AI research policies, oversees research teams, and shapes AI-driven innovation. Collaborates with C-level executives to drive AI research initiatives and transform the organization's AI landscape.",
+        requiredSkills: ["AI Research Strategy", "Leadership", "Innovation"],
+        responsibilities: [
+          "Lead the organization's AI research initiatives and set AI research policies",
+          "Oversee AI research teams and shape AI-driven innovation",
+          "Collaborate with C-level executives on AI research initiatives and AI landscape transformation",
+        ],
+        experience: "10+ years of relevant experience",
+        certifications: ["Certified Chief AI Research Officer (CCAIR)"],
+        potentialCompensationToronto: "$160,000 - $200,000+ CAD per year",
+        potentialCompensationCanada: "$150,000 - $190,000+ CAD per year",
+      },
+    ],
+  },
+  // 9. Chief Data Officer (CDO):
+  // Career Track: Data Analyst/Data Scientist ➔ Data Team Lead/Manager ➔ Director of Data Strategy ➔ Chief Data Officer
 ];
