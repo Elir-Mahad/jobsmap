@@ -2,15 +2,6 @@ export const dataScienceJobs = [
   //   1. Data Analyst:
   // Career Track: Junior Data Analyst ➔ Data Analyst ➔ Senior Data Analyst ➔ Lead Data Analyst ➔ Analytics Manager
 
-  // 5. Data Engineer:
-  // Career Track: Junior Data Engineer ➔ Data Engineer ➔ Senior Data Engineer ➔ Data Engineering Manager ➔ Chief Data Officer
-
-  // 6. Data Analyst (Business Intelligence):
-  // Career Track: Junior BI Analyst ➔ BI Analyst ➔ Senior BI Analyst ➔ BI Manager ➔ Director of Business Intelligence
-
-  // 7. Statistician:
-  // Career Track: Junior Statistician ➔ Statistician ➔ Senior Statistician ➔ Principal Statistician ➔ Chief Statistician
-
   // 8. Research Scientist (AI/ML):
   // Career Track: Junior Research Scientist ➔ Research Scientist ➔ Senior Research Scientist ➔ Principal Research Scientist ➔ Chief AI Research Officer
 
@@ -509,6 +500,101 @@ export const dataScienceJobs = [
         ],
         experience: "10+ years of relevant experience",
         certifications: ["Certified Chief Data Officer (CCDO)"],
+        potentialCompensationToronto: "$150,000 - $200,000+ CAD per year",
+        potentialCompensationCanada: "$140,000 - $190,000+ CAD per year",
+      },
+    ],
+  },
+  // 7. Statistician:
+  // Career Track: Junior Statistician ➔ Statistician ➔ Senior Statistician ➔ Principal Statistician ➔ Chief Statistician
+  {
+    field: "Data science",
+    jobCategory: "Statistician",
+    jobLevels: [
+      {
+        level: "Junior Statistician",
+        jobDescription:
+          "Entry-level role focusing on statistical data analysis, hypothesis testing, and basic modeling. Collaborates with senior statisticians on projects, assists in data collection, and prepares basic statistical reports.",
+        requiredSkills: [
+          "Statistical Analysis",
+          "Hypothesis Testing",
+          "Data Collection",
+        ],
+        responsibilities: [
+          "Conduct statistical data analysis and hypothesis testing",
+          "Assist in data collection and preparation",
+          "Collaborate with senior statisticians on projects",
+        ],
+        experience: "0-2 years of relevant experience",
+        certifications: [],
+        potentialCompensationToronto: "$65,000 - $85,000 CAD per year",
+        potentialCompensationCanada: "$55,000 - $75,000 CAD per year",
+      },
+      {
+        level: "Statistician",
+        jobDescription:
+          "Analyzes and interprets complex statistical data, designs experiments, and prepares detailed statistical reports. Works independently on projects, collaborates with research teams, and contributes to experimental design.",
+        requiredSkills: [
+          "Advanced Statistical Analysis",
+          "Experiment Design",
+          "Data Interpretation",
+        ],
+        responsibilities: [
+          "Analyze complex statistical data and prepare detailed reports",
+          "Design experiments and contribute to experimental design",
+          "Collaborate with research teams and provide statistical insights",
+        ],
+        experience: "2-4 years of relevant experience",
+        certifications: ["Certified Statistician (CS)"],
+        potentialCompensationToronto: "$85,000 - $105,000 CAD per year",
+        potentialCompensationCanada: "$75,000 - $95,000 CAD per year",
+      },
+      {
+        level: "Senior Statistician",
+        jobDescription:
+          "Leads statistical analysis projects, provides expert statistical insights, and mentors junior statisticians. Collaborates with cross-functional teams, contributes to research strategy, and ensures data accuracy.",
+        requiredSkills: ["Project Leadership", "Mentoring", "Data Accuracy"],
+        responsibilities: [
+          "Lead statistical analysis projects and provide expert insights",
+          "Mentor junior statisticians and provide guidance on complex projects",
+          "Collaborate with cross-functional teams and contribute to research strategy",
+        ],
+        experience: "4-6 years of relevant experience",
+        certifications: ["Certified Senior Statistician (CSS)"],
+        potentialCompensationToronto: "$100,000 - $120,000 CAD per year",
+        potentialCompensationCanada: "$90,000 - $110,000 CAD per year",
+      },
+      {
+        level: "Principal Statistician",
+        jobDescription:
+          "Guides statistical research direction, sets statistical methodologies, and oversees large-scale analysis projects. Collaborates with executives, shapes statistical strategies, and ensures alignment with organizational goals.",
+        requiredSkills: [
+          "Research Strategy",
+          "Methodology Development",
+          "Executive Collaboration",
+        ],
+        responsibilities: [
+          "Guide statistical research direction and set methodologies",
+          "Oversee large-scale analysis projects and ensure successful delivery",
+          "Collaborate with executives, shape statistical strategies, and ensure alignment with organizational goals",
+        ],
+        experience: "6+ years of relevant experience",
+        certifications: ["Certified Principal Statistician (CPS)"],
+        potentialCompensationToronto: "$120,000 - $150,000 CAD per year",
+        potentialCompensationCanada: "$110,000 - $140,000 CAD per year",
+      },
+      {
+        level: "Chief Statistician",
+        jobDescription:
+          "Leads the organization's statistical initiatives, sets statistical policies, oversees statistical teams, and shapes data-driven strategies. Collaborates with C-level executives to drive statistical innovation and transform the organization's data landscape.",
+        requiredSkills: ["Statistical Strategy", "Leadership", "Innovation"],
+        responsibilities: [
+          "Lead the organization's statistical initiatives and set policies",
+          "Oversee statistical teams and shape data-driven strategies",
+          "Collaborate with C-level executives on statistical innovation and data landscape transformation",
+        ],
+        experience: "10+ years of relevant experience",
+        certifications: ["Certified Chief Statistician (CCS)"],
         potentialCompensationToronto: "$150,000 - $200,000+ CAD per year",
         potentialCompensationCanada: "$140,000 - $190,000+ CAD per year",
       },
