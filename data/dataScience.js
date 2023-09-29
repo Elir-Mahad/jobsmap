@@ -325,10 +325,101 @@ export const dataScienceJobs = [
   },
   // 4. Machine Learning Engineer:
   // Career Track: Junior Machine Learning Engineer ➔ Machine Learning Engineer ➔ Senior Machine Learning Engineer ➔ Machine Learning Architect ➔ Chief AI Officer
-  // {
-  //   field: "Data science",
-  //   jobCategory: "Data Scientist ",
-  //   jobLevels: [
-
-  //   ]
+  {
+    field: "Data science",
+    jobCategory: "Machine Learning Engineer",
+    jobLevels: [
+      {
+        level: "Junior Machine Learning Engineer",
+        jobDescription:
+          "Entry-level role focusing on developing and implementing machine learning models, collaborating with senior engineers, and contributing to experimentation. Assists in optimizing algorithms and managing model pipelines.",
+        requiredSkills: [
+          "Machine Learning Model Development",
+          "Collaboration",
+          "Algorithm Optimization",
+        ],
+        responsibilities: [
+          "Develop and implement machine learning models",
+          "Collaborate with senior engineers on projects",
+          "Contribute to experimentation and model optimization",
+        ],
+        experience: "0-2 years of relevant experience",
+        certifications: [],
+        potentialCompensationToronto: "$70,000 - $90,000 CAD per year",
+        potentialCompensationCanada: "$60,000 - $80,000 CAD per year",
+      },
+      {
+        level: "Machine Learning Engineer",
+        jobDescription:
+          "Designs, develops, and deploys machine learning models, optimizes algorithms, and manages model pipelines. Works closely with data scientists and software engineers to integrate models into applications and systems.",
+        requiredSkills: [
+          "Machine Learning Model Development",
+          "Algorithm Optimization",
+          "Integration Skills",
+        ],
+        responsibilities: [
+          "Design, develop, and deploy machine learning models",
+          "Optimize algorithms and manage model pipelines",
+          "Integrate models into applications and systems",
+        ],
+        experience: "2-4 years of relevant experience",
+        certifications: ["Certified Machine Learning Engineer (CMLE)"],
+        potentialCompensationToronto: "$80,000 - $100,000 CAD per year",
+        potentialCompensationCanada: "$70,000 - $90,000 CAD per year",
+      },
+      {
+        level: "Senior Machine Learning Engineer",
+        jobDescription:
+          "Leads machine learning projects, provides technical leadership, and mentors junior engineers. Collaborates with cross-functional teams to integrate advanced machine learning models into production systems.",
+        requiredSkills: [
+          "Project Leadership",
+          "Mentoring",
+          "Integration Expertise",
+        ],
+        responsibilities: [
+          "Lead machine learning projects and provide technical leadership",
+          "Mentor junior engineers and provide guidance on complex projects",
+          "Collaborate with cross-functional teams on model integration",
+        ],
+        experience: "4-6 years of relevant experience",
+        certifications: ["Certified Senior Machine Learning Engineer (CSMLE)"],
+        potentialCompensationToronto: "$100,000 - $120,000 CAD per year",
+        potentialCompensationCanada: "$90,000 - $110,000 CAD per year",
+      },
+      {
+        level: "Machine Learning Architect",
+        jobDescription:
+          "Designs the architecture for large-scale machine learning systems, sets technical strategy, and guides AI initiatives. Collaborates with executives and technology teams to align machine learning efforts with business goals.",
+        requiredSkills: [
+          "System Architecture",
+          "Strategic Planning",
+          "Collaboration",
+        ],
+        responsibilities: [
+          "Design architecture for large-scale machine learning systems",
+          "Set technical strategy and guide AI initiatives",
+          "Collaborate with executives and technology teams on alignment with business goals",
+        ],
+        experience: "6+ years of relevant experience",
+        certifications: ["Certified Machine Learning Architect (CMLA)"],
+        potentialCompensationToronto: "$120,000 - $150,000 CAD per year",
+        potentialCompensationCanada: "$110,000 - $140,000 CAD per year",
+      },
+      {
+        level: "Chief AI Officer",
+        jobDescription:
+          "Leads the organization's AI strategy, sets AI research goals, oversees AI teams, and shapes AI-driven innovation. Collaborates with C-level executives to drive AI initiatives and transform the organization's technology landscape.",
+        requiredSkills: ["AI Strategy", "Leadership", "Innovation"],
+        responsibilities: [
+          "Lead the organization's AI strategy and set research goals",
+          "Oversee AI teams and shape AI-driven innovation",
+          "Collaborate with C-level executives on AI initiatives and technology transformation",
+        ],
+        experience: "10+ years of relevant experience",
+        certifications: ["Certified Chief AI Officer (CCAI)"],
+        potentialCompensationToronto: "$150,000 - $200,000+ CAD per year",
+        potentialCompensationCanada: "$140,000 - $190,000+ CAD per year",
+      },
+    ],
+  },
 ];
