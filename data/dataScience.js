@@ -2,12 +2,6 @@ export const dataScienceJobs = [
   //   1. Data Analyst:
   // Career Track: Junior Data Analyst ➔ Data Analyst ➔ Senior Data Analyst ➔ Lead Data Analyst ➔ Analytics Manager
 
-  // 2. Business Analyst:
-  // Career Track: Junior Business Analyst ➔ Business Analyst ➔ Senior Business Analyst ➔ Business Intelligence (BI) Manager ➔ Director of Business Analytics
-
-  // 3. Data Scientist:
-  // Career Track: Junior Data Scientist ➔ Data Scientist ➔ Senior Data Scientist ➔ Machine Learning Engineer ➔ Chief Data Scientist
-
   // 4. Machine Learning Engineer:
   // Career Track: Junior Machine Learning Engineer ➔ Machine Learning Engineer ➔ Senior Machine Learning Engineer ➔ Machine Learning Architect ➔ Chief AI Officer
 
@@ -122,7 +116,9 @@ export const dataScienceJobs = [
       },
     ],
   },
-  //
+  // 2. Business Analyst:
+  // Career Track: Junior Business Analyst ➔ Business Analyst ➔ Senior Business Analyst ➔ Business Intelligence (BI) Manager ➔ Director of Business Analytics
+
   {
     field: "Data science",
     jobCategory: "Business Analyst ",
@@ -224,4 +220,115 @@ export const dataScienceJobs = [
       },
     ],
   },
+  // 3. Data Scientist:
+  // Career Track: Junior Data Scientist ➔ Data Scientist ➔ Senior Data Scientist ➔ Machine Learning Engineer ➔ Chief Data Scientist
+  {
+    field: "Data science",
+    jobCategory: "Data Scientist ",
+    jobLevels: [
+      {
+        level: "Junior Data Scientist",
+        jobDescription:
+          "Entry-level role focusing on data analysis, experimenting with machine learning models, and collaborating with senior data scientists. Assists in data-driven decision-making processes.",
+        requiredSkills: [
+          "Data Analysis",
+          "Machine Learning",
+          "Experimentation",
+        ],
+        responsibilities: [
+          "Analyze data and experiment with machine learning models",
+          "Collaborate with senior data scientists on projects",
+          "Contribute to data-driven decision-making processes",
+        ],
+        experience: "0-2 years of relevant experience",
+        certifications: [],
+        potentialCompensationToronto: "$60,000 - $80,000 CAD per year",
+        potentialCompensationCanada: "$50,000 - $70,000 CAD per year",
+      },
+      {
+        level: "Data Scientist",
+        jobDescription:
+          "Analyzes and interprets complex data sets, designs and implements machine learning models, and provides actionable insights. Collaborates with cross-functional teams to solve business problems.",
+        requiredSkills: [
+          "Advanced Data Analysis",
+          "Machine Learning",
+          "Data Interpretation",
+        ],
+        responsibilities: [
+          "Analyze complex data sets and design machine learning models",
+          "Collaborate with cross-functional teams to solve business problems",
+          "Provide actionable insights and recommendations",
+        ],
+        experience: "2-4 years of relevant experience",
+        certifications: ["Certified Data Scientist (CDS)"],
+        potentialCompensationToronto: "$80,000 - $100,000 CAD per year",
+        potentialCompensationCanada: "$70,000 - $90,000 CAD per year",
+      },
+      {
+        level: "Senior Data Scientist",
+        jobDescription:
+          "Leads data science projects, provides strategic insights, and mentors junior data scientists. Collaborates with stakeholders to align data science with business objectives.",
+        requiredSkills: [
+          "Strategic Data Analysis",
+          "Project Leadership",
+          "Mentoring",
+        ],
+        responsibilities: [
+          "Lead data science projects and provide strategic insights",
+          "Collaborate with stakeholders to align data science with business objectives",
+          "Mentor junior data scientists and provide guidance on complex analyses",
+        ],
+        experience: "4-6 years of relevant experience",
+        certifications: ["Certified Senior Data Scientist (CSDS)"],
+        potentialCompensationToronto: "$100,000 - $120,000 CAD per year",
+        potentialCompensationCanada: "$90,000 - $110,000 CAD per year",
+      },
+      {
+        level: "Machine Learning Engineer",
+        jobDescription:
+          "Designs, develops, and deploys machine learning models, optimizes algorithms, and manages model pipelines. Works closely with data scientists and software engineers.",
+        requiredSkills: [
+          "Machine Learning Model Development",
+          "Algorithm Optimization",
+          "Model Deployment",
+        ],
+        responsibilities: [
+          "Design, develop, and deploy machine learning models",
+          "Optimize algorithms and manage model pipelines",
+          "Collaborate with data scientists and software engineers",
+        ],
+        experience: "6+ years of relevant experience",
+        certifications: ["Certified Machine Learning Engineer (CMLE)"],
+        potentialCompensationToronto: "$120,000 - $150,000 CAD per year",
+        potentialCompensationCanada: "$110,000 - $140,000 CAD per year",
+      },
+      {
+        level: "Chief Data Scientist",
+        jobDescription:
+          "Leads the organization's data science strategy, sets research goals, oversees data science teams, and shapes data-driven innovation. Collaborates with C-level executives to drive business transformation.",
+        requiredSkills: [
+          "Data Science Strategy",
+          "Research Leadership",
+          "Innovation",
+        ],
+        responsibilities: [
+          "Lead the organization's data science strategy and set research goals",
+          "Oversee data science teams and shape data-driven innovation",
+          "Collaborate with C-level executives to drive business transformation",
+        ],
+        experience: "10+ years of relevant experience",
+        certifications: ["Certified Chief Data Scientist (CCDS)"],
+        potentialCompensationToronto: "$150,000 - $200,000+ CAD per year",
+        potentialCompensationCanada: "$140,000 - $190,000+ CAD per year",
+      },
+    ],
+  },
+  // 4. Machine Learning Engineer:
+  // Career Track: Junior Machine Learning Engineer ➔ Machine Learning Engineer ➔ Senior Machine Learning Engineer ➔ Machine Learning Architect ➔ Chief AI Officer
+  // {
+  //   field: "Data science",
+  //   jobCategory: "Data Scientist ",
+  //   jobLevels: [
+
+  //   ]
 ];
