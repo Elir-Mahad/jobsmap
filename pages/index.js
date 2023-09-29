@@ -1,5 +1,5 @@
 import Head from "next/head";
-import JobsList from "../components/JobsList/JobsList";
+import Field from "../components/Field/Field";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <JobsList />
+        <Field />
       </main>
 
       <footer>

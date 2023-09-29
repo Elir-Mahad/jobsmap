@@ -1,4 +1,4 @@
-export const jobData = [
+export const dataScienceJobs = [
   //   1. Data Analyst:
   // Career Track: Junior Data Analyst ➔ Data Analyst ➔ Senior Data Analyst ➔ Lead Data Analyst ➔ Analytics Manager
 
@@ -122,4 +122,5 @@ export const jobData = [
       },
     ],
   },
+  //
 ];
