@@ -5,7 +5,7 @@ function Job({ level, index }) {
   return (
     <div key={level.level} className={style.jobLevel}>
       <h3>
-        {index + 1}: {level.level}
+        Level {index + 1}: {level.level}
       </h3>
       <p>
         <span>Description:</span> {level.jobDescription}
