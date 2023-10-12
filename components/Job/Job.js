@@ -16,6 +16,12 @@ function Job({ level, index }) {
           <li key={skill}>{skill}</li>
         ))}
       </ul>
+      {/* <span>Responsibilities:</span>
+      <ul>
+        {level.responsibilities.map((responsibility) => (
+          <li key={responsibility}>{responsibility}</li>
+        ))}
+      </ul> */}
       <p className={style.experience}>
         <span>Experience:</span> {level.experience}
       </p>
